@@ -1,5 +1,5 @@
 {
-  "importedAt": "2026-10-01T16:10:29.742Z",
+  "importedAt": "2026-10-13T13:17:33.221Z",
   "profile": {
     "login": "AdiTheCoder00",
     "name": "Aditya Maini",
@@ -7,38 +7,56 @@
     "url": "https://github.com/AdiTheCoder00",
     "avatar": "https://avatars.githubusercontent.com/u/114816756?v=4",
     "blog": "lookingforwork.vercel.app",
-    "publicRepos": 18
+    "publicRepos": 20
   },
   "totals": {
-    "repos": 17,
-    "commits": 435,
+    "repos": 19,
+    "commits": 463,
     "shipped": 6,
     "languages": 5,
     "firstRepoAt": "2025-03-04T05:43:51Z"
   },
   "languages": [
     {
-      "name": "Python",
-      "share": 40.7
+      "name": "TypeScript",
+      "share": 41.6
     },
     {
-      "name": "TypeScript",
-      "share": 28.3
+      "name": "Python",
+      "share": 31.8
     },
     {
       "name": "HTML",
-      "share": 14.2
+      "share": 13.2
     },
     {
       "name": "JavaScript",
-      "share": 12
+      "share": 9.4
     },
     {
       "name": "CSS",
-      "share": 3.8
+      "share": 3.1
     }
   ],
   "timeline": [
+    {
+      "name": "AlgoTradingSoftware",
+      "url": "https://github.com/AdiTheCoder00/AlgoTradingSoftware",
+      "homepage": "",
+      "summary": "",
+      "commits": 2,
+      "createdAt": "2026-10-11T11:00:25Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "Telegram-Management-System",
+      "url": "https://github.com/AdiTheCoder00/Telegram-Management-System",
+      "homepage": "",
+      "summary": "Create price alerts for any instrument and get a Telegram message the moment price reaches your level, once, not every few seconds.",
+      "commits": 26,
+      "createdAt": "2026-10-04T04:12:31Z",
+      "primaryLanguage": "TypeScript"
+    },
     {
       "name": "ETI--main",
       "url": "https://github.com/AdiTheCoder00/ETI--main",
@@ -209,7 +227,7 @@
       "primaryLanguage": "TypeScript",
       "createdAt": "2026-07-04T17:38:04Z",
       "pushedAt": "2026-07-08T17:13:43Z",
-      "score": 23.15
+      "score": 23.05
     },
     {
       "name": "algo-trading",
@@ -234,7 +252,7 @@
       "primaryLanguage": "Python",
       "createdAt": "2026-08-19T19:20:19Z",
       "pushedAt": "2026-09-13T16:40:07Z",
-      "score": 17.92
+      "score": 17.82
     },
     {
       "name": "mishri-sweet-house",
@@ -252,7 +270,7 @@
       "primaryLanguage": "HTML",
       "createdAt": "2026-09-22T16:34:56Z",
       "pushedAt": "2026-09-26T00:55:30Z",
-      "score": 16.87
+      "score": 16.77
     },
     {
       "name": "iphone-6-app",
@@ -273,7 +291,7 @@
       "primaryLanguage": "Python",
       "createdAt": "2026-08-12T23:25:02Z",
       "pushedAt": "2026-08-18T11:36:17Z",
-      "score": 14.92
+      "score": 14.82
     },
     {
       "name": "ETI--main",
@@ -292,7 +310,7 @@
       "primaryLanguage": "TypeScript",
       "createdAt": "2026-09-26T07:00:28Z",
       "pushedAt": "2026-09-29T17:07:12Z",
-      "score": 14.16
+      "score": 14.06
     },
     {
       "name": "Aditya-Maini",
@@ -310,7 +328,25 @@
       "primaryLanguage": "TypeScript",
       "createdAt": "2026-04-13T16:50:56Z",
       "pushedAt": "2026-08-18T12:56:33Z",
-      "score": 13.63
+      "score": 13.53
+    },
+    {
+      "name": "Telegram-Management-System",
+      "url": "https://github.com/AdiTheCoder00/Telegram-Management-System",
+      "homepage": "",
+      "summary": "Create price alerts for any instrument and get a Telegram message the moment price reaches your level, once, not every few seconds.",
+      "stars": 0,
+      "commits": 26,
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "Dockerfile"
+      ],
+      "primaryLanguage": "TypeScript",
+      "createdAt": "2026-10-04T04:12:31Z",
+      "pushedAt": "2026-10-05T21:03:23Z",
+      "score": 13.45
     },
     {
       "name": "Proof-Craft",
@@ -329,24 +365,7 @@
       "primaryLanguage": "TypeScript",
       "createdAt": "2026-07-04T08:25:33Z",
       "pushedAt": "2026-07-04T19:48:17Z",
-      "score": 12.07
-    },
-    {
-      "name": "ValorantComboChecker",
-      "url": "https://github.com/AdiTheCoder00/ValorantComboChecker",
-      "homepage": "https://replit.com/@senseiadiii/ValorantComboChecker",
-      "summary": "",
-      "stars": 0,
-      "commits": 27,
-      "languages": [
-        "Python",
-        "HTML",
-        "JavaScript"
-      ],
-      "primaryLanguage": "Python",
-      "createdAt": "2025-06-23T17:08:18Z",
-      "pushedAt": "2025-06-24T06:44:06Z",
-      "score": 11.61
+      "score": 11.97
     }
   ]
 }

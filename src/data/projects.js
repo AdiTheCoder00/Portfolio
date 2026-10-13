@@ -6,7 +6,7 @@ import github from "./github.json";
 export const profile = {
   ...github.profile,
   // Fill these in to show them in the contact section and footer.
-  email: "",
+  email: "aditya.maini44@gmail.com",
   linkedin: "",
   resume: "", // e.g. "/resume.pdf" placed in public/
 };
