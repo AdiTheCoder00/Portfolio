@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Maini</title>
+    <meta
+      name="description"
+      content="Aditya Maini, full-stack developer. Five projects, from a hackathon planner to an options trading engine."
+    />
+    <meta property="og:title" content="Aditya Maini" />
+    <meta property="og:description" content="AI products, trading systems and websites, built end to end." />
+    <meta property="og:type" content="website" />
+    <!-- Social platforms need an absolute URL: replace /og.png with https://<your-domain>/og.png once deployed. -->
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Aditya Maini: AI products, trading systems and websites, built end to end." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Aditya Maini" />
+    <meta name="twitter:description" content="AI products, trading systems and websites, built end to end." />
+    <meta name="twitter:image" content="/og.png" />
+    <meta name="theme-color" content="#03100a" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2303100a'/%3E%3Ctext x='16' y='22' font-family='monospace' font-weight='700' font-size='16' fill='%238df0b4' text-anchor='middle'%3EAM%3C/text%3E%3C/svg%3E" />
+    <!-- Critical paint: the first frame on load or reload is always the dark tube, never
+         unstyled content, even before the stylesheet arrives. -->
+    <style>
+      html, body { margin: 0; background: #03100a; color: #c4f5d6; }
+      .loader { position: fixed; inset: 0; z-index: 30; background: #03100a; }
+      body:not(.is-3d):not(.is-static) main,
+      body:not(.is-3d):not(.is-static) .nav,
+      body:not(.is-3d):not(.is-static) .rail { visibility: hidden; }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to the written sections</a>
+    <div class="loader" id="loader">
+      <div id="boot" aria-hidden="true"></div>
+      <p class="sr-only" role="status" id="loader-status">Loading the portfolio</p>
+      <button class="loader-skip" id="loader-skip" type="button">Skip intro</button>
+    </div>
+
+    <canvas id="scene" aria-hidden="true"></canvas>
+
+    <header class="nav">
+      <a class="nav-name" href="#top" data-goto="0">Aditya Maini</a>
+      <nav aria-label="Primary">
+        <a href="#work" data-goto="1">Work</a>
+        <a href="#about" data-goto="about">About</a>
+        <a href="#contact" data-goto="contact">Contact</a>
+      </nav>
+    </header>
+
+    <ol class="rail" id="rail" aria-label="Projects"></ol>
+    <div class="progress" aria-hidden="true"><span id="progress-fill"></span></div>
+
+    <main>
+      <div id="track">
+        <section class="stop hero" id="top" data-stop="0">
+          <div class="stop-inner">
+            <h1>Aditya Maini<span class="cursor" aria-hidden="true"></span></h1>
+            <p class="lead">
+              I build my own projects from the first commit to the live site. Here are five of them.
+            </p>
+            <div class="ctas">
+              <a class="btn btn-primary" href="#work" data-goto="1">See the work</a>
+              <a class="btn btn-ghost" href="#about" data-goto="about">About me</a>
+            </div>
+          </div>
+        </section>
+
+        <div id="work"></div>
+        <!-- Project stops are rendered from src/data/projects.js -->
+
+        <section class="stop outro" id="overview" data-stop="end">
+          <div class="stop-inner">
+            <h2>Those are the five.</h2>
+            <p class="lead">Below is a bit about me and everything else on my GitHub.</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- After the walk: regular sections in the same terminal. Filled from src/data/projects.js. -->
+      <div class="after">
+        <section class="sect about" id="about" aria-labelledby="about-title">
+          <div class="wrap about-copy">
+            <h2 id="about-title">About me</h2>
+            <p class="lead">
+              I'm Aditya, a full-stack developer. I usually work alone, so I write the front end, the back end
+              and the deploy scripts myself.
+            </p>
+            <p class="body-copy">
+              The projects I enjoy most have a hard part hiding under a normal-looking app: pricing gold
+              options, running speech recognition on a phone from 2014, or checking that someone actually did
+              the task they ticked off. I also practise competitive programming most days.
+            </p>
+            <p class="body-copy" id="about-numbers"></p>
+          </div>
+        </section>
+
+        <section class="sect stack" id="stack" aria-labelledby="stack-title">
+          <div class="wrap">
+            <h2 id="stack-title">Tools I use</h2>
+            <div class="stack-grid">
+              <div class="langs">
+                <h3>Languages, by code on GitHub</h3>
+                <ol id="langs"></ol>
+              </div>
+              <div class="toolbox" id="toolbox"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sect log" id="log" aria-labelledby="log-title">
+          <div class="wrap">
+            <h2 id="log-title">Everything on GitHub</h2>
+            <p class="log-sub" id="log-sub"></p>
+            <ol class="log-list" id="log-list"></ol>
+          </div>
+        </section>
+
+        <section class="sect contact" id="contact" aria-labelledby="contact-title">
+          <div class="wrap contact-grid">
+            <div>
+              <h2 id="contact-title">Get in touch</h2>
+              <p class="lead">If you have a role or a project in mind, send me a message.</p>
+              <ul class="channels" id="channels"></ul>
+            </div>
+            <form class="mail" id="mail-form" novalidate>
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input id="f-name" name="name" type="text" autocomplete="name" maxlength="100" required />
+              </div>
+              <div class="field">
+                <label for="f-email">Your email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" maxlength="254" required aria-describedby="f-email-error" />
+                <p class="error" id="f-email-error" hidden>Enter an email address I can reply to.</p>
+              </div>
+              <div class="field">
+                <label for="f-message">Message</label>
+                <textarea id="f-message" name="message" rows="5" maxlength="4000" required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit" id="f-submit">Send message</button>
+              <p class="form-status" id="form-status" role="status"></p>
+            </form>
+          </div>
+        </section>
+
+        <footer class="foot">
+          <div class="wrap foot-row">
+            <p>&copy; <span id="year"></span> Aditya Maini</p>
+            <ul class="foot-links" id="foot-links"></ul>
+            <a class="back" href="#top" data-goto="0"><i data-icon="arrow-up"></i> Back to the start</a>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <noscript>
+      <style>
+        .loader { display: none !important; }
+        body main, body .nav { visibility: visible !important; }
+      </style>
+      <p class="noscript">This walkthrough needs JavaScript. My work is on <a href="https://github.com/AdiTheCoder00">GitHub</a>.</p>
+    </noscript>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,352 @@
+{
+  "importedAt": "2026-10-01T16:10:29.742Z",
+  "profile": {
+    "login": "AdiTheCoder00",
+    "name": "Aditya Maini",
+    "bio": "printf(\"Eat. Code. Sleep. Repeat.\");",
+    "url": "https://github.com/AdiTheCoder00",
+    "avatar": "https://avatars.githubusercontent.com/u/114816756?v=4",
+    "blog": "lookingforwork.vercel.app",
+    "publicRepos": 18
+  },
+  "totals": {
+    "repos": 17,
+    "commits": 435,
+    "shipped": 6,
+    "languages": 5,
+    "firstRepoAt": "2025-03-04T05:43:51Z"
+  },
+  "languages": [
+    {
+      "name": "Python",
+      "share": 40.7
+    },
+    {
+      "name": "TypeScript",
+      "share": 28.3
+    },
+    {
+      "name": "HTML",
+      "share": 14.2
+    },
+    {
+      "name": "JavaScript",
+      "share": 12
+    },
+    {
+      "name": "CSS",
+      "share": 3.8
+    }
+  ],
+  "timeline": [
+    {
+      "name": "ETI--main",
+      "url": "https://github.com/AdiTheCoder00/ETI--main",
+      "homepage": "https://eti-main.vercel.app",
+      "summary": "Marketing site and admin for ETI Drone Visuals. Next.js (App Router) + Supabase + Resend + Vercel Blob.",
+      "commits": 16,
+      "createdAt": "2026-09-26T07:00:28Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "mishri-sweet-house",
+      "url": "https://github.com/AdiTheCoder00/mishri-sweet-house",
+      "homepage": "https://mishri-sweet-house.vercel.app",
+      "summary": "A single-page ecommerce demo for a Jaipur mithai shop. Plain HTML, CSS and JavaScript, no build step, no dependencies.",
+      "commits": 43,
+      "createdAt": "2026-09-22T16:34:56Z",
+      "primaryLanguage": "HTML"
+    },
+    {
+      "name": "fine-tune-project",
+      "url": "https://github.com/AdiTheCoder00/fine-tune-project",
+      "homepage": "",
+      "summary": "",
+      "commits": 0,
+      "createdAt": "2026-08-28T21:51:57Z",
+      "primaryLanguage": null
+    },
+    {
+      "name": "algo-trading",
+      "url": "https://github.com/AdiTheCoder00/algo-trading",
+      "homepage": "",
+      "summary": "An event-driven trading system for a short strangle on MCX GOLDM options — one",
+      "commits": 130,
+      "createdAt": "2026-08-19T19:20:19Z",
+      "primaryLanguage": "Python"
+    },
+    {
+      "name": "iphone-6-app",
+      "url": "https://github.com/AdiTheCoder00/iphone-6-app",
+      "homepage": "",
+      "summary": "A local AI desk companion designed for an iPhone 6/6s-sized display. The UI is",
+      "commits": 49,
+      "createdAt": "2026-08-12T23:25:02Z",
+      "primaryLanguage": "Python"
+    },
+    {
+      "name": "Team-Axen-Round-2",
+      "url": "https://github.com/AdiTheCoder00/Team-Axen-Round-2",
+      "homepage": "",
+      "summary": "Currently, two official plugins are available:",
+      "commits": 2,
+      "createdAt": "2026-07-22T05:44:52Z",
+      "primaryLanguage": "CSS"
+    },
+    {
+      "name": "Proof-Craft--1-",
+      "url": "https://github.com/AdiTheCoder00/Proof-Craft--1-",
+      "homepage": "",
+      "summary": "",
+      "commits": 0,
+      "createdAt": "2026-07-04T18:33:48Z",
+      "primaryLanguage": null
+    },
+    {
+      "name": "doable",
+      "url": "https://github.com/AdiTheCoder00/doable",
+      "homepage": "https://doable-nyc.vercel.app",
+      "summary": "Every day, millions of people ask AI questions like:",
+      "commits": 60,
+      "createdAt": "2026-07-04T17:38:04Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "Proof-Craft",
+      "url": "https://github.com/AdiTheCoder00/Proof-Craft",
+      "homepage": "",
+      "summary": "",
+      "commits": 29,
+      "createdAt": "2026-07-04T08:25:33Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "hack",
+      "url": "https://github.com/AdiTheCoder00/hack",
+      "homepage": "",
+      "summary": "",
+      "commits": 5,
+      "createdAt": "2026-07-02T11:23:02Z",
+      "primaryLanguage": "HTML"
+    },
+    {
+      "name": "Aditya-Maini",
+      "url": "https://github.com/AdiTheCoder00/Aditya-Maini",
+      "homepage": "https://sky-glass-portfolio.vercel.app",
+      "summary": "Welcome to the source code of my personal portfolio. Designed to be a high-performance, visually stunning experience, this project combines the precision of complex systems architecture with modern, interactive web desig",
+      "commits": 15,
+      "createdAt": "2026-04-13T16:50:56Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "ValorantComboChecker",
+      "url": "https://github.com/AdiTheCoder00/ValorantComboChecker",
+      "homepage": "https://replit.com/@senseiadiii/ValorantComboChecker",
+      "summary": "",
+      "commits": 27,
+      "createdAt": "2025-06-23T17:08:18Z",
+      "primaryLanguage": "Python"
+    },
+    {
+      "name": "pharma-ledger-nexus",
+      "url": "https://github.com/AdiTheCoder00/pharma-ledger-nexus",
+      "homepage": "",
+      "summary": "",
+      "commits": 47,
+      "createdAt": "2025-06-23T08:59:53Z",
+      "primaryLanguage": "TypeScript"
+    },
+    {
+      "name": "kotak-algo-frontend",
+      "url": "https://github.com/AdiTheCoder00/kotak-algo-frontend",
+      "homepage": "",
+      "summary": "In the project directory, you can run:",
+      "commits": 4,
+      "createdAt": "2025-04-14T09:33:37Z",
+      "primaryLanguage": "JavaScript"
+    },
+    {
+      "name": "kotak-algo-backend",
+      "url": "https://github.com/AdiTheCoder00/kotak-algo-backend",
+      "homepage": "",
+      "summary": "",
+      "commits": 1,
+      "createdAt": "2025-04-14T09:33:12Z",
+      "primaryLanguage": "JavaScript"
+    },
+    {
+      "name": "BackendProject",
+      "url": "https://github.com/AdiTheCoder00/BackendProject",
+      "homepage": "",
+      "summary": "",
+      "commits": 3,
+      "createdAt": "2025-03-06T18:56:29Z",
+      "primaryLanguage": null
+    },
+    {
+      "name": "Web-Portfolio",
+      "url": "https://github.com/AdiTheCoder00/Web-Portfolio",
+      "homepage": "https://web-portfolio-lac-five.vercel.app",
+      "summary": "",
+      "commits": 4,
+      "createdAt": "2025-03-04T05:43:51Z",
+      "primaryLanguage": "JavaScript"
+    }
+  ],
+  "repos": [
+    {
+      "name": "doable",
+      "url": "https://github.com/AdiTheCoder00/doable",
+      "homepage": "https://doable-nyc.vercel.app",
+      "summary": "Every day, millions of people ask AI questions like:",
+      "stars": 2,
+      "commits": 60,
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "HTML"
+      ],
+      "primaryLanguage": "TypeScript",
+      "createdAt": "2026-07-04T17:38:04Z",
+      "pushedAt": "2026-07-08T17:13:43Z",
+      "score": 23.15
+    },
+    {
+      "name": "algo-trading",
+      "url": "https://github.com/AdiTheCoder00/algo-trading",
+      "homepage": "",
+      "summary": "An event-driven trading system for a short strangle on MCX GOLDM options — one",
+      "stars": 0,
+      "commits": 130,
+      "languages": [
+        "Python",
+        "MQL5",
+        "TypeScript",
+        "Dart",
+        "Kotlin",
+        "CSS",
+        "PowerShell",
+        "MQL4",
+        "HTML",
+        "Batchfile",
+        "JavaScript"
+      ],
+      "primaryLanguage": "Python",
+      "createdAt": "2026-08-19T19:20:19Z",
+      "pushedAt": "2026-09-13T16:40:07Z",
+      "score": 17.92
+    },
+    {
+      "name": "mishri-sweet-house",
+      "url": "https://github.com/AdiTheCoder00/mishri-sweet-house",
+      "homepage": "https://mishri-sweet-house.vercel.app",
+      "summary": "A single-page ecommerce demo for a Jaipur mithai shop. Plain HTML, CSS and JavaScript, no build step, no dependencies.",
+      "stars": 0,
+      "commits": 43,
+      "languages": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Python"
+      ],
+      "primaryLanguage": "HTML",
+      "createdAt": "2026-09-22T16:34:56Z",
+      "pushedAt": "2026-09-26T00:55:30Z",
+      "score": 16.87
+    },
+    {
+      "name": "iphone-6-app",
+      "url": "https://github.com/AdiTheCoder00/iphone-6-app",
+      "homepage": "",
+      "summary": "A local AI desk companion designed for an iPhone 6/6s-sized display. The UI is",
+      "stars": 0,
+      "commits": 49,
+      "languages": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "TypeScript",
+        "CSS",
+        "C++",
+        "PowerShell"
+      ],
+      "primaryLanguage": "Python",
+      "createdAt": "2026-08-12T23:25:02Z",
+      "pushedAt": "2026-08-18T11:36:17Z",
+      "score": 14.92
+    },
+    {
+      "name": "ETI--main",
+      "url": "https://github.com/AdiTheCoder00/ETI--main",
+      "homepage": "https://eti-main.vercel.app",
+      "summary": "Marketing site and admin for ETI Drone Visuals. Next.js (App Router) + Supabase + Resend + Vercel Blob.",
+      "stars": 0,
+      "commits": 16,
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "PLpgSQL"
+      ],
+      "primaryLanguage": "TypeScript",
+      "createdAt": "2026-09-26T07:00:28Z",
+      "pushedAt": "2026-09-29T17:07:12Z",
+      "score": 14.16
+    },
+    {
+      "name": "Aditya-Maini",
+      "url": "https://github.com/AdiTheCoder00/Aditya-Maini",
+      "homepage": "https://sky-glass-portfolio.vercel.app",
+      "summary": "Welcome to the source code of my personal portfolio. Designed to be a high-performance, visually stunning experience, this project combines the precision of complex systems architecture with modern, interactive web desig",
+      "stars": 0,
+      "commits": 15,
+      "languages": [
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "primaryLanguage": "TypeScript",
+      "createdAt": "2026-04-13T16:50:56Z",
+      "pushedAt": "2026-08-18T12:56:33Z",
+      "score": 13.63
+    },
+    {
+      "name": "Proof-Craft",
+      "url": "https://github.com/AdiTheCoder00/Proof-Craft",
+      "homepage": "",
+      "summary": "",
+      "stars": 0,
+      "commits": 29,
+      "languages": [
+        "TypeScript",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Shell"
+      ],
+      "primaryLanguage": "TypeScript",
+      "createdAt": "2026-07-04T08:25:33Z",
+      "pushedAt": "2026-07-04T19:48:17Z",
+      "score": 12.07
+    },
+    {
+      "name": "ValorantComboChecker",
+      "url": "https://github.com/AdiTheCoder00/ValorantComboChecker",
+      "homepage": "https://replit.com/@senseiadiii/ValorantComboChecker",
+      "summary": "",
+      "stars": 0,
+      "commits": 27,
+      "languages": [
+        "Python",
+        "HTML",
+        "JavaScript"
+      ],
+      "primaryLanguage": "Python",
+      "createdAt": "2025-06-23T17:08:18Z",
+      "pushedAt": "2025-06-24T06:44:06Z",
+      "score": 11.61
+    }
+  ]
+}

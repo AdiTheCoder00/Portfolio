@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- Source for public/og.png, the link-preview card. Rebuild with: npm run og -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face { font-family: "Geist Mono"; src: url("../node_modules/@fontsource-variable/geist-mono/files/geist-mono-latin-wght-normal.woff2") format("woff2"); font-weight: 100 900; }
+      html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: #03100a; }
+      body { position: relative; font-family: "Geist Mono", monospace; color: #c4f5d6; }
+      .grid { position: absolute; inset: 0; background:
+        linear-gradient(rgb(28 236 132 / 0.07) 1px, transparent 1px) 0 0 / 60px 60px,
+        linear-gradient(90deg, rgb(28 236 132 / 0.07) 1px, transparent 1px) 0 0 / 60px 60px;
+        mask-image: radial-gradient(ellipse at 70% 80%, #000 20%, transparent 75%); }
+      .copy { position: absolute; left: 80px; bottom: 96px; }
+      .prompt { font-size: 24px; color: #4f9a76; margin: 0 0 22px; }
+      .prompt b { color: #7cc49d; font-weight: 400; }
+      h1 { margin: 0; font-size: 104px; line-height: 0.95; letter-spacing: -0.06em; font-weight: 600; text-shadow: 0 0 30px rgb(28 236 132 / 0.4); }
+      .cursor { display: inline-block; width: 50px; height: 86px; margin-left: 10px; background: #c4f5d6; vertical-align: -6px; box-shadow: 0 0 24px rgb(28 236 132 / 0.5); }
+      p.sub { margin: 26px 0 0; font-size: 30px; color: #7cc49d; }
+      p.sub em { font-style: normal; color: #ffba5e; }
+      .scan { position: absolute; inset: 0; background: repeating-linear-gradient(180deg, transparent 0 2px, rgb(0 0 0 / 0.12) 2px 3px), radial-gradient(ellipse, transparent 55%, rgb(1 6 3 / 0.6)); }
+    </style>
+  </head>
+  <body>
+    <div class="grid"></div>
+    <div class="copy">
+      <p class="prompt"><b>aditya@github</b>:~$ whoami</p>
+      <h1>Aditya Maini<span class="cursor"></span></h1>
+      <p class="sub">AI products, trading systems and websites, <em>built end to end</em>.</p>
+    </div>
+    <div class="scan"></div>
+  </body>
+</html>
