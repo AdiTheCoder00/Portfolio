@@ -23,27 +23,24 @@ const FEATURED = [
     stack: ["TypeScript", "LLM API", "Three.js"],
   },
   {
-    repo: "algo-trading",
-    title: "GOLDM Strangle Engine",
-    line: "Software that runs a short strangle on MCX gold options.",
-    body: "It has a backtest engine, a risk layer, and connections to Kotak Neo and Angel One that recover after a crash. It has only paper traded so far, and live trading is switched off by default.",
-    stack: ["Python", "Angel One API", "Next.js dashboard"],
-    fact: { value: "82,020", label: "bhavcopy rows backtested" },
-    // No UI to screenshot, so the panel shows the repo's README as a terminal. Every line
-    // below is taken from that README.
+    repo: "Telegram-Management-System",
+    title: "Telegram Alert System",
+    line: "Real-time price alert and backtesting platform dispatching instant Telegram notifications.",
+    body: "An alert platform and backtesting engine with multi-indicator rules, candle patterns, and multi-timeframe conditions. It evaluates market ticks with optimistic locking, deduplication, and cooldowns before dispatching messages via the Telegram Bot API through background workers.",
+    stack: ["TypeScript", "Next.js 16", "PostgreSQL", "Prisma 7", "Telegram Bot API", "Redis / BullMQ"],
+    fact: { value: "21", label: "technical indicators supported" },
     poster: {
-      title: "algo-trading/README.md",
+      title: "Telegram-Management-System/README.md",
       lines: [
-        ["# GOLDM strangle engine", "h"],
+        ["# Levels — Telegram price alerts", "h"],
         ["", "p"],
-        ["An event-driven trading system for a short", "p"],
-        ["strangle on MCX GOLDM options: one ~0.25-delta", "p"],
-        ["call and one ~0.25-delta put per monthly expiry.", "p"],
+        ["Real-time alert engine and backtester.", "p"],
+        ["Instant Telegram delivery on triggered levels.", "p"],
         ["", "p"],
-        ["Status   milestones 1-8 complete", "a"],
-        ["Backtest 82,020 bhavcopy rows, Jan-Jun 2026", "p"],
-        ["Brokers  Kotak Neo, Angel SmartAPI reconciled", "p"],
-        ["Live     off by default", "d"],
+        ["Engine   Next.js 16, PostgreSQL, Prisma 7", "p"],
+        ["Worker   Redis + BullMQ outbox queue", "p"],
+        ["Bot API  Telegram webhook, dedupe, cooldown", "a"],
+        ["Tests    Vitest unit & integration passing", "d"],
       ],
     },
   },
@@ -100,6 +97,7 @@ export const languages = github.languages;
 
 // One honest line per repo for the git-log timeline. Repos with no line and no commits are skipped.
 const TIMELINE_NOTES = {
+  "Telegram-Management-System": "Levels: real-time Telegram price alerts and backtesting platform",
   "ETI--main": "Website and lead pipeline for ETI Drone Visuals",
   "mishri-sweet-house": "Storefront for a Jaipur mithai shop",
   "algo-trading": "GOLDM options engine, from backtests to broker adapters",

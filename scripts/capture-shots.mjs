@@ -14,7 +14,7 @@ mkdirSync(outDir, { recursive: true });
 
 const { repos: allRepos, profile } = JSON.parse(readFileSync(new URL("src/data/github.json", root), "utf8"));
 // Only the repos featured on the walk get a screenshot (keep in sync with FEATURED in src/data/projects.js).
-const FEATURED = ["doable", "algo-trading", "mishri-sweet-house", "iphone-6-app", "ETI--main"];
+const FEATURED = ["doable", "Telegram-Management-System", "mishri-sweet-house", "iphone-6-app", "ETI--main"];
 const repos = allRepos.filter((r) => FEATURED.includes(r.name));
 
 // Standalone pages inside repos that have no deployment. Captured at phone size.
