@@ -29,20 +29,6 @@ const FEATURED = [
     body: "An alert platform and backtesting engine with multi-indicator rules, candle patterns, and multi-timeframe conditions. It evaluates market ticks with optimistic locking, deduplication, and cooldowns before dispatching messages via the Telegram Bot API through background workers.",
     stack: ["TypeScript", "Next.js 16", "PostgreSQL", "Prisma 7", "Telegram Bot API", "Redis / BullMQ"],
     fact: { value: "21", label: "technical indicators supported" },
-    poster: {
-      title: "Telegram-Management-System/README.md",
-      lines: [
-        ["# Levels — Telegram price alerts", "h"],
-        ["", "p"],
-        ["Real-time alert engine and backtester.", "p"],
-        ["Instant Telegram delivery on triggered levels.", "p"],
-        ["", "p"],
-        ["Engine   Next.js 16, PostgreSQL, Prisma 7", "p"],
-        ["Worker   Redis + BullMQ outbox queue", "p"],
-        ["Bot API  Telegram webhook, dedupe, cooldown", "a"],
-        ["Tests    Vitest unit & integration passing", "d"],
-      ],
-    },
   },
   {
     repo: "mishri-sweet-house",
